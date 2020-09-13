@@ -1,6 +1,5 @@
-package com.packagename.myapp.spring.progressbarexample;
+package com.packagename.myapp.spring.view;
 
-import com.packagename.myapp.spring.MainView;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;

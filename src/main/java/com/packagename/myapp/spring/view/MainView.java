@@ -1,6 +1,5 @@
-package com.packagename.myapp.spring;
+package com.packagename.myapp.spring.view;
 
-import com.packagename.myapp.spring.progressbarexample.ProgressBarView;
 import com.vaadin.flow.component.HasElement;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.applayout.AppLayout;
@@ -57,11 +56,11 @@ public class MainView extends AppLayout implements RouterLayout {
         RouteConfiguration routeConfiguration = RouteConfiguration.forApplicationScope();
         tabToUrlMap.put(new Tab("Test"), routeConfiguration.getUrl(TestView.class));
         tabToUrlMap.put(new Tab("Progressbar"), routeConfiguration.getUrl(ProgressBarView.class));
+        tabToUrlMap.put(new Tab("Addressbook"), routeConfiguration.getUrl(AddressbookView.class));
     }
 
     @Override
     public void showRouterLayoutContent(HasElement content) {
-        // Displays the content of the selected Tab
         getElement().appendChild(content.getElement());
     }
 

@@ -1,4 +1,4 @@
-package com.packagename.myapp.spring;
+package com.packagename.myapp.spring.view;
 
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
